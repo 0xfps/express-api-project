@@ -26,7 +26,7 @@ app.listen(PORT, "", 10, () => {
                 console.log("Collection users, created")
             }
         })
-        
+
         client.close()
     })
 })
